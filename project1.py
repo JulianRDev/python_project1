@@ -33,7 +33,8 @@ def main():
 
         #condition for if user does not enter anything
         if anime_input == "":
-            anime_input=input("Well, I can't help you if you don't give me an anime. Please enter an anime: ").title()
+            print("Well, I can't help you if you don't give me an anime. ")
+            input_count -=1
         #condition for once counter hits 5, gives last suggestion and exits
         elif input_count == 5:
             print(f"Here's the last one for you : {anime_list[random_num]}!")
