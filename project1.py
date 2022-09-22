@@ -11,7 +11,9 @@ def main():
     watched_anime = list()
 
     # set anime list for anime suggestions to give
-    anime_list=['Demon Slayer', 'Naruto', 'Jujutsu Kaisen', 'Seven Deadly Sins', 'One Punch Man']
+    anime_list=['Demon Slayer', 'Naruto', 'Jujutsu Kaisen', 'Seven Deadly Sins', 'One Punch Man', 'Baki', 'My Hero Academia', 'Dragonball Z', 
+    'Orient', 'The Faraway Paladin', 'Ghost In The Shell', 'Hunter X Hunter', 'Gundam Wing', 'Trigun', 'Mob Psycho 100', 'Cowboy Bebop', 'Attack On Titan',
+    'Jojo\'s Bizzare Adventure', ]
 
     #set anime input to empty string 
     anime_input = ""
